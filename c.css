@@ -12,6 +12,7 @@ body  {
 .mb {
   border-bottom: 5px solid #aaa;
   text-align: center;
+  font-weight: bold;
 }
 
 .container {
