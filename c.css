@@ -4,7 +4,8 @@ body  {
 }
 
 .hd  {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   border-bottom: 5px solid #aaa;
 }
 
