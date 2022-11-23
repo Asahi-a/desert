@@ -24,12 +24,12 @@ body  {
   border-left:1px solid;
   border-right:1px solid;
   border-color: #aaa;
-  font-size: 16pt;
 }
 
 .main-contents {
   width: 70%;
   padding: 10px;
+  font-size: 8pt;
 }
 
 .left-menu {
