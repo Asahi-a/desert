@@ -1,6 +1,7 @@
 body  {
   background-color: #000;
   color: #3aa;
+  font-size: 14pt;
 }
 
 .hd  {
@@ -29,6 +30,7 @@ body  {
 .left-menu {
   border: 1px solid #aaa;
   width: 20%;
+  padding:0px;
   margin: 10px;
 }
 
@@ -37,4 +39,5 @@ body  {
   font-weight: bold;
   text-align: center;
   color: #fff;
+  padding: 0px;
 }
