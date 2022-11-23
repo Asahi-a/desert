@@ -8,6 +8,10 @@ body  {
   margin-right: auto;
 }
 
+.mb {
+  border-bottom: 5px solid #aaa;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
