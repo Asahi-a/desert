@@ -5,6 +5,7 @@ body  {
 
 .hd  {
   text-align: center;
+  border-bottom: 5px solid #aaa;
 }
 
 .container {
