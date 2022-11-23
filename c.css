@@ -21,6 +21,9 @@ body  {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  border-left:1px solid;
+  border-right:1px solid;
+  border-color: #aaa;
 }
 
 .main-contents {
