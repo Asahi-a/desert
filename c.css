@@ -30,7 +30,7 @@ body  {
 .left-menu {
   border: 1px solid #aaa;
   width: 20%;
-  padding:2px;
+  padding:3px;
   margin: 10px;
 }
 
@@ -39,7 +39,6 @@ body  {
   font-weight: bold;
   text-align: center;
   color: #fff;
-  padding: 0px;
   font-size:20px;
   height:22px;
   
