@@ -32,7 +32,9 @@ body  {
   padding: 10px;
 }
 
-.ctbd {
+.indx {
+  border: 2px solid #aaa;
   font-weight: bold;
   text-align: center;
+  color: #fff;
 }
