@@ -27,13 +27,13 @@ body  {
 }
 
 .left-menu {
-  border: 2px solid #aaa;
+  border: 1px solid #aaa;
   width: 20%;
   margin: 10px;
 }
 
 .indx {
-  border: 2px solid #aaa;
+  border: 1px solid #aaa;
   font-weight: bold;
   text-align: center;
   color: #fff;
