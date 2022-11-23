@@ -2,7 +2,7 @@ body  {
   background-color: #000;
   color: #3aa;
   font-size: 18pt;
-  font-family:serif;
+  font-family: serif;
 }
 
 .hd  {
@@ -40,7 +40,7 @@ body  {
   font-weight: bold;
   text-align: center;
   color: #fff;
-  font-size:20px;
-  padding:0px;
-  font-family:sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  font-family: sans-serif;
 }
