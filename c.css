@@ -2,6 +2,7 @@ body  {
   background-color: #000;
   color: #3aa;
   font-size: 18pt;
+  font-family:serif;
 }
 
 .hd  {
@@ -40,6 +41,6 @@ body  {
   text-align: center;
   color: #fff;
   font-size:20px;
-  height:22px;
-  
+  padding:0px;
+  font-family:sans-serif;
 }
