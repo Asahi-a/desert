@@ -58,7 +58,7 @@ iframe{
   color: #fff;
   font-size: 20px;
   padding: 0px;
-  font-family: cursive,sans-serif;
+  font-family: "cursive","sans-serif";
   line-height: 0;
 }
 
