@@ -1,6 +1,5 @@
 body  {
   background-color: #111;
-  color: #3aa;
   font-family: serif;
 }
 
@@ -17,6 +16,7 @@ iframe{
   border-left:1px solid;
   border-right:1px solid;
   border-color: #aaa;
+  color: #3aa;
 }
 
 .hd  {
