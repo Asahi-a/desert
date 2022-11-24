@@ -9,8 +9,22 @@ iframe {
     height: 1000px;
 }
 
-p {
+.honbun {
     color: #fd8;
+    font-size: 12pt;
+}
+
+/*↑クラスhonbunと↓クラスindxはそれぞれ本文と見出し用のcss*/
+
+.indx {
+    border: 1px solid #aaa;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+    font-family: "cursive", "sans-serif";
+    line-height: 0;
 }
 
 .middle {
@@ -45,7 +59,6 @@ p {
 .main-contents {
     width: 70%;
     padding: 10px;
-    font-size: 12pt;
 }
 
 .left-menu {
@@ -54,16 +67,6 @@ p {
     margin: 10px;
 }
 
-div.indx {
-    border: 1px solid #aaa;
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    padding: 0px;
-    font-family: "cursive", "sans-serif";
-    line-height: 0;
-}
 
 .bardelighter {
     width: 100%;
