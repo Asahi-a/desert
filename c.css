@@ -9,6 +9,10 @@ iframe{
   height: 1000px;
 }
 
+p{
+  color: #fd8;
+}
+
 .middle {
   background-color:#000;
   width: 1000px;
@@ -42,7 +46,6 @@ iframe{
   width: 70%;
   padding: 10px;
   font-size: 12pt;
-  color: #3aa;
 }
 
 .left-menu {
