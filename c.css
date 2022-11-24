@@ -4,6 +4,10 @@ body  {
   font-family: serif;
 }
 
+iframe{
+  width:100%;
+}
+
 .middle {
   background-color:#000;
   width: 90%;
