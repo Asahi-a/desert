@@ -35,7 +35,7 @@ body  {
 .left-menu {
   border: 1px solid #aaa;
   width: 20%;
-  padding:3px;
+  padding:3px 10px;
   margin: 10px;
 }
 
