@@ -59,6 +59,7 @@ iframe {
 .main-contents {
     width: 70%;
     padding: 10px;
+    background-color:#000;
 }
 
 .left-menu {
@@ -66,7 +67,6 @@ iframe {
     width: 25%;
     margin: 10px;
 }
-
 
 .bardelighter {
     width: 100%;
