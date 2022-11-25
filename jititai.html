@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    
     <div class="middle">
         <p class="hd">
             <a href="index.html" style="border:none;"><img src="2462E5EF-BB79-451F-A65A-A912ABEF918A.jpeg"
@@ -26,15 +26,22 @@
 
         <div class="container">
             <div class="left-menu">
-                <object data="side.html">
-                </object>
+                <div id="side">
+                    abcdef<!--ここでinframeやobjectを使うとサイドバーのウィンドウ内自体にリンク先が表示されて入れ子みたいになるからJavaScriptで書き換えを行う。-->
+                </div>
             </div>
             <div class="main-contents">
-                本文
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
-
+        
+        <script src="side.js"></script>
 </body>
 
 </html>
