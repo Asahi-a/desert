@@ -3,7 +3,7 @@ body {
     font-family: "serif";
 }
 
-iframe {
+object {
     width: 100%;
     border: none;
     height: 1000px;
