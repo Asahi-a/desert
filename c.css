@@ -65,6 +65,7 @@ object {
     border: 1px solid #aaa;
     width: 25%;
     margin: 10px;
+    padding: 2px;
 }
 
 .bardelighter {
