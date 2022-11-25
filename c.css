@@ -12,7 +12,7 @@ object {
 }
 
 .link {
-    color:#c8f;
+    color:#d8f;
 }
 
 /*↑クラスlinkと↓クラスindxはそれぞれリンクと見出し用のcssで、使うときはdivにclassで属性をつける*/
