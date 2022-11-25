@@ -11,11 +11,22 @@ object {
     height: 1000px;
 }
 
-.link {
+a:link {
     color:#d8f;
 }
 
-/*↑クラスlinkと↓クラスindxはそれぞれリンクと見出し用のcssで、使うときはdivにclassで属性をつける*/
+a:hover{
+    color:#0fa;
+}
+a:active{
+    color:#0fa;
+}
+
+a:visit{
+    color:#0fa;
+}
+
+/*↓クラスindxは見出し用のcssで、使うときはdivにclassで属性をつける*/
 
 .indx {
     border: 1px solid #aaa;
