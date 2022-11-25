@@ -15,14 +15,14 @@ a:link {
     color:#d8f;
 }
 
+a:visited{
+    color:#d8f;
+}
+
 a:hover{
     color:#0fa;
 }
 a:active{
-    color:#0fa;
-}
-
-a:visited{
     color:#0fa;
 }
 
