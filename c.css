@@ -41,7 +41,6 @@ a:active{
 }
 
 .subindx {
-    border: 1px solid #aaa;
     font-weight: bold;
     color: #fff;
     font-size: 20px;
@@ -49,6 +48,10 @@ a:active{
     font-family: cursive,sans-serif;
     line-height: 0;
     background-color:#110;
+    border-left:10px solid #fd8;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
 }
 
 .middle {
