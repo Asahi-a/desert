@@ -26,12 +26,23 @@ a:active{
     color:#0fa;
 }
 
-/*↓クラスindxは見出し用のcssで、使うときはdivにclassで属性をつける*/
+/*↓クラスindx,subindxは見出し用のcssで、使うときはdivにclassで属性をつける*/
 
 .indx {
     border: 1px solid #aaa;
     font-weight: bold;
     text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+    font-family: cursive,sans-serif;
+    line-height: 0;
+    background-color:#110;
+}
+
+.subindx {
+    border: 1px solid #aaa;
+    font-weight: bold;
     color: #fff;
     font-size: 20px;
     padding: 0px;
