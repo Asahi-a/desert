@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テンプレート/砂漠の砂漠</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+    
+    <div class="middle">
+        <p class="hd">
+            <a href="index.html" style="border:none;"><img src="2462E5EF-BB79-451F-A65A-A912ABEF918A.jpeg"
+                    alt="砂漠の砂漠 Hide-out" width="60%"></a>
+        </p>
+
+        <div class="mb">
+            <a href="https://www.youtube.com/@Ojihineko" target="_blank" rel="noopener noreferrer"
+                style="text-decoration: none;"><span style="color: #f0a;">Youtube <span /></a>
+            <a href="https://twitter.com/Asahi_1234" target="_blank" rel="noopener noreferrer"
+                style="text-decoration: none;"><span style="color: #0ff;"> Twitter</span></a>
+        </div>
+
+        <div class="container">
+            <div class="left-menu">
+                <div id="side">
+                    abcdef<!--ここでinframeやobjectを使うとサイドバーのウィンドウ内自体にリンク先が表示されて入れ子みたいになるからJavaScriptで書き換えを行う。-->
+                </div>
+            </div>
+            <div class="main-contents">
+                鉄道関係の目次、その他
+                <div class="subindx"><p>鉄道会社一覧</p></div>
+                <p>国鉄</p>
+                <p>砂砦市電</p>
+                <p>石坂築港鉄道</p>
+                <p style="color:#aaa;">石金鉄道(石坂築港鉄道に吸収された)</p>
+                <p>西隈森林鉄道</p>
+                <div class="subindx"><p>電化について</p></div>
+                <p>砂漠の砂漠では、電化の概念が現実と少し違う。</p>
+                <p>というのもチェーンで電線を表現しているので、カーブで電線を設置することができない。</p>
+                <p>そこで819系みたいな感じで途中で充電して走る列車を電車、他のディーゼルエンジンなどで走る列車を気動車と区別している。</p>
+                <p>なので、電化路線というのは路線中に充電ができる駅が設置されている路線のことを言う。</p>
+            </div>
+        </div>
+    </div>
+        
+        <script src="side.js"></script>
+</body>
+
+</html>
