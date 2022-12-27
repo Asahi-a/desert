@@ -26,7 +26,7 @@ a:active{
     color:#0fa;
 }
 
-/*↓クラスindx,subindxは見出し用のcssで、使うときはdivにclassで属性をつける*/
+/*↓クラスindx,subindx,tabは見出し用のcssで、使うときはdivにclassで属性をつける*/
 
 .indx {
     border: 1px solid #aaa;
@@ -53,6 +53,20 @@ a:active{
     border-bottom: 1px solid #aaa;
     border-top: 1px solid #aaa;
 }
+
+.tab {
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px;
+    font-family: cursive,sans-serif;
+    line-height: 0;
+    background-color:#110;
+    text-decoration:underline;
+    text-decoration-color: #fd8;
+}
+
+/*以下ヘッダー、サイドメニュー用のCSS。今後更新する必要なはいと思われる。*/
 
 .middle {
     background-color: #000;
