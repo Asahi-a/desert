@@ -1,4 +1,4 @@
-let growingP = doccument.getElementById('p');
+let growingP = document.getElementById('p');
 
 growingP.addEventListener('mouseover', function() {
   element.style.color = '#9FF';
