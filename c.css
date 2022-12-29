@@ -26,6 +26,10 @@ a:active{
     color:#0fa;
 }
 
+p:hover{
+    color:#0ff;
+}
+
 /*↓クラスindx,subindx,tabは見出し用のcssで、使うときはdivにclassで属性をつける*/
 
 .indx {
