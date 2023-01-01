@@ -129,4 +129,7 @@ if (count == 2){
   nnr = getNnr(nnr);
   fare = nnr;
   alert (fare);
+}else if (count>=3){
+  alert ('3回以上押さないでください');
 }
+
