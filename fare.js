@@ -124,4 +124,8 @@ nisiguma.addEventListener('click', function() {
 if (count=2){
   distance = distination[0] - distination[1];
   distance = Math.abs(distance);
+  getNnr (nnr);
+  
+  fare = nnr;
+  alert (fare);
 }
