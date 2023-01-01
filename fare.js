@@ -121,11 +121,12 @@ nisiguma.addEventListener('click', function() {
 
 /*計算部*/
 
-if (count === 2){
+if (count = 2){
   distance = distination[0] - distination[1];
   distance = Math.abs(distance);
   getNnr (nnr);
   
+  nnr = getNnr(nnr);
   fare = nnr;
   alert (fare);
 }
