@@ -4,6 +4,35 @@ var disSaio = [0,2.3,4.5,6.9,9.4,12,14,18.4,20.5,23,27.7,35.7,37.8,44];
 var count = 0;
 var distination = [];
 var station = [];
+var distance
+var nnr //乗り換えも見据えて国鉄部分のみの運賃
+var fare
+/*国鉄距離運賃計算関数*/
+function getNnr (nnr) {
+  if (distance <= 3.5) {
+    return 100;
+  }else if (distance <= 7){
+    return 130;
+  }else if (distance <=11.5){
+    return 160;
+  }else if (distance <=14){
+    return 190;
+  }else if (distance <=19){
+    return 220;
+  }else if (distance <=24){
+    return 250;
+  }else if (distance <=29){
+    return 280;
+  }else if (distance <=36){
+    return 310;
+  }else if (distance <=43){
+    return 340;
+  }else if (distance <=50){
+    return 370;
+  }else {
+    return 400;
+  }
+}
 /*全ボタンにイベントリスナー付加*/
 var kitamichi = document.getElementById('kitamichi')
 kitamichi.addEventListener('click', function() {
@@ -89,3 +118,10 @@ nisiguma.addEventListener('click', function() {
   distination.push(disSaio[13]);
   station.push("西隈");
 });
+
+/*計算部*/
+
+if (count=2){
+  distance = distination[0] - distination[1];
+  distance = Math.abs(distance);
+}
