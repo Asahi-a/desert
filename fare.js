@@ -127,16 +127,18 @@ if (count == 2){
   distance = distination[0] - distination[1];
   distance = Math.abs(distance);
   getNnr (nnr);
-  
   nnr = getNnr(nnr);
+  
   fare = nnr;
-  alert (fare);
+  let msg = station[0] + 'から' + station[1] + 'までの運賃は' + fare + '円です';
+  let result = document.getElementById('fare')
+  result.innerHTML = '<div class = "subindx"><p>Succeed!</p></div><p>'+ msg +'</p><a href=fare.html>リトライ</a>';
 }else if (count>=3){
-  let resurt = document.getElementById('fare')
-  result.innerHTML = '<div class = "subindx"><p>Error</p></div><p>3駅以上押さないでください</p><a href=fare.html>リトライ</a>';
+  let result = document.getElementById('fare')
+  result.innerHTML = '<div class = "subindx"><p>Error...</p></div><p>3駅以上押さないでください</p><a href=fare.html>リトライ</a>';
 }else if (count<=1){
-  let resurt = document.getElementById('fare')
-  result.innerHTML = '<div class = "subindx"><p>Error</p></div><p>2駅以上押しましょう</p><a href=fare.html>リトライ</a>';
+  let result = document.getElementById('fare')
+  result.innerHTML = '<div class = "subindx"><p>Error...</p></div><p>2駅以上押しましょう</p><a href=fare.html>リトライ</a>';
 }
 
 });
