@@ -120,6 +120,8 @@ nisiguma.addEventListener('click', function() {
 });
 
 /*計算部*/
+var calc = document.getElementById('start')
+calc.addEventListener('click', function() {
 
 if (count == 2){
   distance = distination[0] - distination[1];
@@ -130,6 +132,9 @@ if (count == 2){
   fare = nnr;
   alert (fare);
 }else if (count>=3){
-  alert ('3回以上押さないでください');
+  alert ('3駅以上押さないでください');
+}else if (count<=1){
+  alert ('2駅押しましょう')
 }
 
+});
