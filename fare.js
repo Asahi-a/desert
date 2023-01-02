@@ -132,9 +132,11 @@ if (count == 2){
   fare = nnr;
   alert (fare);
 }else if (count>=3){
-  alert ('3駅以上押さないでください');
+  let resurt = document.getElementById('fare')
+  result.innerHTML = '<div class = "subindx"><p>Error</p></div><p>3駅以上押さないでください</p><a href=fare.html>リトライ</a>';
 }else if (count<=1){
-  alert ('2駅押しましょう')
+  let resurt = document.getElementById('fare')
+  result.innerHTML = '<div class = "subindx"><p>Error</p></div><p>2駅以上押しましょう</p><a href=fare.html>リトライ</a>';
 }
 
 });
