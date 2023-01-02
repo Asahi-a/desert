@@ -9,7 +9,9 @@ var nnr //乗り換えも見据えて国鉄部分のみの運賃
 var fare
 /*国鉄距離運賃計算関数*/
 function getNnr(nnr) {
-  if (distance <= 3.5) {
+  if (distance == 0){
+    return 0;
+  }else if (distance <= 3.5) {
     return 100;
   } else if (distance <= 7) {
     return 130;
