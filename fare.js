@@ -142,7 +142,7 @@ calc.addEventListener('click', function () {
     if (transNnrOohama == 0){
     distance = distination[0] - distination[1];
     distance = Math.abs(distance);
-    }else if (transNnrOhama == 1){
+    }else if (transNnrOohama == 1){
     distance = Math.ads(disSaio[3] - distination[0]) + Math.ads(distinationOohama[0] - disOham[0])
     }
     
