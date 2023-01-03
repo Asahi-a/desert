@@ -143,7 +143,7 @@ calc.addEventListener('click', function () {
     distance = distination[0] - distination[1];
     distance = Math.abs(distance);
     }else if (transNnrOohama == 1){
-    distance = Math.ads(disSaio[3] - distination[0]) + Math.ads(distinationOohama[0] - disOham[0])
+    distance = Math.abs(disSaio[3] - distination[0]) + Math.ads(distinationOohama[0] - disOham[0])
     }
     
     getNnr(nnr);
