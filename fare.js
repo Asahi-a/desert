@@ -1,12 +1,15 @@
 /*西央線営業ヘクト一覧*/
 var disSaio = [0, 2.3, 4.5, 6.9, 9.4, 12, 14, 18.4, 20.5, 23, 27.7, 35.7, 37.8, 40];
+var disOham = [0,3.7];
 /*押回数,終点起点の配列準備*/
 var count = 0;
-var distination = [];
+var distination = [];//西央線の営業ヘクト押し込み用
+var distinationOohama = [];//大浜線の営業ヘクト押し込み用(上の行と一緒くたにするとどちらの数値が大浜線かわからなくなるから)
 var station = [];
 var distance
 var nnr //乗り換えも見据えて国鉄部分のみの運賃
 var fare
+var transNnrOhama = 0; //大浜線乗換の時1となって乗換感知
 /*国鉄距離運賃計算関数*/
 function getNnr(nnr) {
   if (distance == 0){
@@ -121,13 +124,28 @@ nisiguma.addEventListener('click', function () {
   station.push("西隈");
 });
 
+
+var oohama = document.getElementById('oohama')
+oohama.addEventListener('click', function () {
+  count = count + 1;
+  distinationOohama.push(disOham[1]);
+  station.push("大浜");
+  transNnrOohama = 1;
+});
+
 /*計算部*/
 var calc = document.getElementById('start')
 calc.addEventListener('click', function () {
 
   if (count == 2) {
+    
+    if (transNnrOohama == 0){
     distance = distination[0] - distination[1];
     distance = Math.abs(distance);
+    }else if (transNnrOhama == 1){
+    distance = Math.ads(disSaio[3] - distination[0]) + Math.ads(distinationOohama[0] - disOham[0])
+    }
+    
     getNnr(nnr);
     nnr = getNnr(nnr);
 
